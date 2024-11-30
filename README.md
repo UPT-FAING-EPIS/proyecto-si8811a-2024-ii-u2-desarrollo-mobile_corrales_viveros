@@ -1,2 +1,4 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=17171083)
 # Proyecto-App-Movil-Juegos-Florales-formatos-FD01-y-FD02
+
+A continuacion se tiene lo documentos de Factibilidad y Vision del Aplicativo Movil "Juegos Florales UPT", en estos se detallan los aspectos economicos que se tendran sobre el proyecto que se va elaborar.
