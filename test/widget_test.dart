@@ -7,24 +7,19 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
 import 'package:florales/main.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
+  testWidgets('Login button test', (WidgetTester tester) async {
+    // Construye la app y activa un frame
     await tester.pumpWidget(const MyApp());
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
+    // Verifica que el título existe
+    expect(find.text('Juegos Florales UPT'), findsOneWidget);
+    expect(find.text('2024 - II'), findsOneWidget);
 
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
-
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    // Verifica que el botón de inicio de sesión existe
+    expect(find.text('Iniciar sesión con Microsoft'), findsOneWidget);
+    expect(find.byIcon(Icons.login), findsOneWidget);
   });
 }
